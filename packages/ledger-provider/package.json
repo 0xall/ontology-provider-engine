@@ -1,0 +1,28 @@
+{
+  "name": "ontology-ledger-provider",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^4.24.0",
+    "elliptic": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/elliptic": "^6.4.0",
+    "@types/ledgerhq__hw-transport": "^4.21.0",
+    "@types/ledgerhq__hw-transport-node-hid": "^4.22.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.10",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
